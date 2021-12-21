@@ -1,0 +1,105 @@
+@media  screen and (max-width:768px) {
+    :root {
+        --green : #6e50f0;
+        --red : #ec5f68;
+        --white : #fffffb;
+        --Fwhite :#fff;
+        --black : #190e16;
+    }
+    
+    *, body, html {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        text-decoration: none;
+        box-sizing: border-box;
+    
+    }
+    body {
+        background-color: rgb(235, 235, 235);
+        margin:0 auto;
+        overflow: scroll;
+    }
+    .hide_xs {
+        display: none;
+    }
+    header nav {
+        background-color: var(--red);
+        padding: 0;
+        margin: 0 auto;
+        /* overflow: scroll; */
+        position:fixed;
+        top: 10px;
+        left:0;
+        width: 100%;
+        height: auto;
+        z-index: 999;
+    }
+    header nav .link {
+        position:absolute;
+        top:100%;
+        left: -100%;
+        width: 60%;
+        height: 100vh;
+        z-index: 999;
+        background-color: var(--red);
+        padding: 15px 5px;
+        transition: all linear .3s;
+
+    }
+    header nav .link .close_button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 35px;
+        height: 35px;
+        background-color: white;
+        color: var(--black);
+        font-size: 10px;
+        padding: 8px;
+        font-weight: 400;
+        border-radius: 50%;
+    }
+    header nav .link .close_button:hover{
+        transform: rotate(180deg);
+        transition: all linear .5s;
+    }
+    header nav .link ul {
+        display: block!important;
+    }
+    header nav .link ul li {
+        border-bottom: 1px solid black;
+        margin: 2px 0px;
+        padding: 5px;
+    
+    }
+    header nav .link ul li a {
+        color: var(--Fwhite);
+        font-size: 18px;
+        width: 100%;
+    }
+    header nav .link ul li a svg {
+        padding-right: 10px;
+        font-size: 25px;
+    }
+    header nav .link .nav_head h2 {
+        font-family: oswald;
+        font-size: 35px;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 3px solid gray;
+        color: var(--white);
+
+    }
+    header .small_nav svg {
+        font-size: 35px;
+        padding: 5px;
+        color:var(--white);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .hide_md {
+        display: none;
+    }
+}

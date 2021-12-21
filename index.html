@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="style/theme.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/default.css">
+    <link rel="stylesheet" href="style/responsive.css">
 </head>
 <body>
     
@@ -29,17 +30,24 @@
                     <div class="logo text-black">
                         logo
                     </div>
+                    <div class="small_nav hide_md">
+                            <i class="fas fa-align-justify"></i>
+                    </div>
 
-                    <div class="link">
+                    <div class="link" id="nav_link">
+                        <i class="close_button fas fa-times hide_md" id="close_button"></i>
+                        
                         <ul class="d-flex justify-content-center align-items-center">
-
-                            <li><a href="#" class="n_active">home</a></li>
-                            <li><a href="#">about</a></li>
-                            <li><a href="#">portfollio</a></li>
-                            <li><a href="#">service</a></li>
-                            <li><a href="#">blog</a></li>
-                            <li><a href="#">contact</a></li>
-                            <li><a href="#" class="download_btn">download CV</a></li>
+                            <div class="nav_head hide_md">
+                                <h2>WhoIm</h2>
+                            </div>
+                            <li><a href="#" class="n_active"> <div class="fas fa-home hide_md"></div> home</a></li>
+                            <li><a href="#"> <div class="fas fa-id-card hide_md"></div> about</a></li>
+                            <li><a href="#"> <div class="fas fa-image hide_md"></div> portfollio</a></li>
+                            <li><a href="#"> <div class="fas fa-globe hide_md"></div> service</a></li>
+                            <li><a href="#"> <div class="fas fa-blog hide_md"></div> blog</a></li>
+                            <li><a href="#"> <div class="fas fa-phone hide_md"></div> contact</a></li>
+                            <li><a href="#" class="download_btn hide_md"> <div class="fas fa-download hide_md"></div> download CV</a></li>
 
                         </ul>
                     </div>
@@ -68,8 +76,8 @@
                         </div>
 
                         <div class="right ">
-                            <div class="w-100 image position-relative">
-                                <img src="image/pic-1.jpg" alt="">
+                            <div class="w-100 image position-relative d-none">
+                                <img  src="image/pic-1.jpg" alt="">
                                 <a href="#"><div></div></a>
                             </div>
                         </div>
