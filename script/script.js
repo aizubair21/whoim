@@ -27,10 +27,16 @@ $(document).ready(function(){
         loop:true,
         margin:10,
         nav:true,
-        items:5,
-        Responsive : {
+        items:4,
+        Responsive:{
+            600: {
+                items:3,
+            },
             400: {
                 items:3,
+            },
+            768: {
+                items:4,
             }
         }
         

@@ -229,7 +229,8 @@ header .social_media div svg {
 /* about me */
 #about_me {
     padding: 60px 0px;
-    border: 1px solid;
+    /* border: 1px solid; */
+
 }
 #about_me .about_body .left{
     position: relative;
