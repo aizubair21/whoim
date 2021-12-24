@@ -161,7 +161,7 @@
 }
 
 @media screen and (min-width:768px) {
-    .hide_md 
+    .hide_md{
         display: none;
     }
 }
