@@ -388,19 +388,101 @@
     <section>
         <div class="t_body">
             <div class="container">
-                <div id="testimonial" class="d-flex">
+                <div id="testimonial" class="row">
                     
-                    <div class="left d-flex  align-items-center h-100">
+                    <div class="col-md-6 left d-flex  align-items-center h-100">
                         <div>
-                            <h4 >testimonial</h4>
-                            <h2>What people say</h2>
+                            <h4>testimonial</h4>
+                            <h3>What people say</h3>
 
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam quaerat dicta eum quod at deserunt?</p>
                         </div>
                     </div>
 
-                    <div class="right">
+                    <div class="col-md-6 right p-3 text-white d-flex">
+                       <!-- Slideshow container -->
+                        <div class="slideshow-container">
 
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides fade">
+                                <div class="m_text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, exercitationem. Dolorem deleniti, maiores, iure quasi corporis non, fugit voluptatum laboriosam eos natus reiciendis optio voluptate?
+                                </div>
+                                <div>
+                                    <div class="caption d-flex w-100">
+                                        <div style="width: 50%">
+                                            Mahmud Hasan
+                                        </div>
+                                        <p>a coders</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="m_text">
+                                    exercitationem. Dolorem deleniti, maiores, iure quasi corporis non, fugit voluptatum laboriosam eos natus reiciendis optio voluptate?
+                                </div>
+                                <div>
+                                    <div class="caption d-flex w-100">
+                                        <div style="width: 50%">
+                                            Mamun Hasan
+                                        </div>
+                                        <p>a Learners</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <div class="mySlides fade">
+                                <div class="m_text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, exercitationem. Dolorem deleniti, maiores?
+                                </div>
+                                <div>
+                                    <div class="caption d-flex w-100">
+                                        <div style="width: 50%">
+                                            Jower Hasan
+                                        </div>
+                                        <p>a dreamer</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Next and previous buttons -->
+                            <div id="slider_nav">
+                                <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-arrow-left"></i></a>
+                                <a class="next" onclick="plusSlides(1)"> <i class="fas fa-arrow-right"></i></a>    
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+            <div class="common_heading">
+                <div>
+                    <h4>from my blogs</h4>
+                    <h3> Get Tops, Tricks, Recent Updates and All</h3>
+                </div>
+            </div>
+
+            <div class="blog_body">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="image/images1.jpg" alt="blog_post_thumbnail">
+
+                        <div class="blog_body_des">
+                            <div class="head d-flex">
+                                <span>Web Development</span>
+                                <p>Octobor 23, 2021</p>
+                            </div>
+
+                            <div class="body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
