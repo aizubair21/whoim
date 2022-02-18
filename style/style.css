@@ -85,6 +85,7 @@ header {
 }
 nav {
     padding-top: 40px;
+    z-index: 999;
 }
 nav ul li a {
     padding: 5px 15px;
@@ -675,4 +676,30 @@ header .social_media div svg {
     padding-top: 50px;
     padding-bottom: 70px;
 }
+#blog .blog_body_des {
+    padding: 10px 0px;
+}
+#blog .blog_body_des .head span {
+    width: 50%;
+    color: var(--green);
+}
+#blog .blog_body_des .body{
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 600;
+    font-family: serif;
+}
+#blog .items:hover .body {
+    color: var(--green);
+}
+#blog p {
+    margin: 0;
+}
+#blog .owl-item img {
+    border-radius: 10px;
+}
+#blog .owl-item:nth-child(even) {
+    padding-top: 0px;
+}
+
 /* blog end  */
